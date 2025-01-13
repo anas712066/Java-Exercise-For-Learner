@@ -20,7 +20,9 @@ public static boolean mayor(float num1, float num2) {
         float num2 = input.nextFloat();
         boolean result = mayor(num1, num2);
         if (result = false) {
-            
+            System.out.println("El número " + num1 + " no es mayor que " + num2);
+        } else {
+            System.out.println("El número " + num1 + " es mayor que " + num2);
         }
         
     }
